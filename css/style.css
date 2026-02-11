@@ -417,3 +417,39 @@ button {
     margin: 110px 0 0 120px;
     z-index: 100;
 }
+
+#science {
+    position:relative;
+    width: 100%;
+    height: 800px;
+    background-image: url(../img/science/science_bg.png);
+}
+
+#science .scienceWrap {
+    position:relative;
+    width: 1066px;
+    height: 611px;
+    left: 50%;
+    margin-left: -533px;
+}
+
+#science .scienceWrap .scienceLeftWrap {
+    position: absolute;
+    float: left;
+} 
+
+#science .scienceWrap .scienceLeftWrap .gly {
+    position: absolute;
+    width: 230px;
+    height: 192px;
+    background-image: url(../img/science/gly.png);
+    margin-bottom: 130px;
+    margin-left: 55px;
+}
+
+#science .scienceWrap .scienceLeftWrap p {
+    color: #8E7577;
+    font-size: 18px;
+    line-height: 26px;
+    padding-top: 10px;
+}

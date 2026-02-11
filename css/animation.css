@@ -1,0 +1,44 @@
+#intro .introWrap .lion {
+    animation: spinLion 1500ms linear infinite alternate;
+}
+
+@keyframes spinLion {
+    from {transform: rotate(-10deg);}
+    to {transform: rotate(10deg)}
+}
+
+#intro .introWrap .rabbit {
+    animation: spinrabbit 1000ms linear infinite alternate;
+}
+
+@keyframes spinrabbit {
+    from {transform: rotate(-3deg);}
+    to {transform: rotate(3deg);}
+}
+
+#intro .introWrap .monkey {
+    animation: spinmonkey 1000ms linear infinite alternate;
+}
+
+@keyframes spinmonkey {
+    from {transform: rotate(20deg);}
+    to {transform: rotate(50deg)}
+}
+
+#intro .introWrap .bear {
+    animation: spinbear 1000ms linear infinite alternate;
+}
+
+@keyframes spinbear {
+    from {transform: rotate(-5deg);}
+    to {transform: rotate(10deg);}
+}
+
+#intro .cloudWrap .dragonfly {
+    animation: flyDragonfly 7000ms linear infinite normal
+}
+
+@keyframes flyDragonfly {
+    from{left: -366px;}
+    to{left: 110%;}
+}
