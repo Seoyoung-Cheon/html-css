@@ -42,3 +42,48 @@
     from{left: -366px;}
     to{left: 110%;}
 }
+
+#farm3 .machineWrap .timer {
+    animation: spinTimer 9000ms linear infinite normal
+}
+
+@keyframes spinTimer {
+    from{transform:rotate(0deg)}
+    to{transform:rotate(360deg)}
+}
+
+#farm3 .machineWrap .saw1{
+    animation: spinSaw1 5000ms linear infinite normal
+}
+
+@keyframes spinSaw1 {
+    from{transform:rotate(0deg)}
+    to{transform:rotate(360deg)}
+}
+
+#farm3 .machineWrap .saw2 {
+    animation: spinSaw2 7000ms linear infinite normal
+}
+
+@keyframes spinSaw2 {
+    from{transform:rotate(0deg)}
+    to{transform:rotate(360deg)}
+}
+
+#forest2 .machineWrap2 .machineleft {
+    animation: moveLeft 800ms linear infinite alternate
+}
+
+@keyframes moveLeft {
+    from{transform:translateX(0px)}
+    to{transform: translateX(50px);}
+}
+
+#forest2 .machineWrap2 .machineright {
+    animation:moveRight 800ms linear infinite alternate
+}
+
+@keyframes moveRight {
+    from{transform:translateX(0px)}
+    to{transform:translateX(-50px)}
+}
